@@ -27,3 +27,6 @@ h1,h2,h3{font-family:Fraunces,Georgia,serif;color:#0b2447}
 .drawer{transition:transform .3s}
 @media (prefers-reduced-motion:reduce){*,*::after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
 .flink{display:inline-block;transition:transform .2s,color .2s}.flink:hover{transform:translateX(6px);color:#fff;text-decoration:underline}
+.sbtn{min-height:36px;padding:.35rem .8rem;font-size:.8rem;white-space:nowrap;flex:1 1 0}
+@media(max-width:380px){.sbtn{padding:.35rem .5rem;font-size:.75rem}}
+.fb-doc{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='36' r='16' fill='%230e8f9c' fill-opacity='.45'/%3E%3Cpath d='M18 92c0-20 14-32 32-32s32 12 32 32z' fill='%230e8f9c' fill-opacity='.45'/%3E%3C/svg%3E") center 70%/60% no-repeat,linear-gradient(135deg,#e0f2fe,#ccfbf1)}
